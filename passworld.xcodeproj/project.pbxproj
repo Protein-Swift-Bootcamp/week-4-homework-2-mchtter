@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45EB624291DA52800C97F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB623291DA52800C97F65 /* AppDelegate.swift */; };
+		A45EB626291DA52800C97F65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB625291DA52800C97F65 /* SceneDelegate.swift */; };
+		A45EB628291DA52800C97F65 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB627291DA52800C97F65 /* OnboardingViewController.swift */; };
+		A45EB62B291DA52900C97F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45EB629291DA52900C97F65 /* Main.storyboard */; };
+		A45EB62E291DA52900C97F65 /* passworld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A45EB62C291DA52900C97F65 /* passworld.xcdatamodeld */; };
+		A45EB630291DA52B00C97F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45EB62F291DA52B00C97F65 /* Assets.xcassets */; };
+		A45EB633291DA52B00C97F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45EB631291DA52B00C97F65 /* LaunchScreen.storyboard */; };
+		A45EB63E291DA52B00C97F65 /* passworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB63D291DA52B00C97F65 /* passworldTests.swift */; };
+		A45EB648291DA52B00C97F65 /* passworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB647291DA52B00C97F65 /* passworldUITests.swift */; };
+		A45EB64A291DA52B00C97F65 /* passworldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB649291DA52B00C97F65 /* passworldUITestsLaunchTests.swift */; };
+		A4602B1829212F430091E85A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1729212F430091E85A /* UIViewExtension.swift */; };
+		A4602B1A29214A070091E85A /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1929214A070091E85A /* OnboardingSlide.swift */; };
+		A4602B1E292152D60091E85A /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1D292152D60091E85A /* OnboardingCollectionViewCell.swift */; };
+		A4602B202921622A0091E85A /* OnboardingViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1F2921622A0091E85A /* OnboardingViewExtension.swift */; };
+		A483A611291EFAE800BEAF66 /* Harabara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A610291EFAE800BEAF66 /* Harabara.ttf */; };
+		A483A625291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */; };
+		A483A626291EFB2F00BEAF66 /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */; };
+		A483A627291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A615291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf */; };
+		A483A628291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A616291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf */; };
+		A483A629291EFB2F00BEAF66 /* Urbanist-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A617291EFB2F00BEAF66 /* Urbanist-Black.ttf */; };
+		A483A62A291EFB2F00BEAF66 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A618291EFB2F00BEAF66 /* Urbanist-Medium.ttf */; };
+		A483A62B291EFB2F00BEAF66 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A619291EFB2F00BEAF66 /* Urbanist-Regular.ttf */; };
+		A483A62C291EFB2F00BEAF66 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A61A291EFB2F00BEAF66 /* Urbanist-Bold.ttf */; };
+		A483A62D291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A61B291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf */; };
+		A483A62E291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A61C291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf */; };
+		A483A62F291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A61D291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf */; };
+		A483A630291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A61E291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf */; };
+		A483A631291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A61F291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf */; };
+		A483A632291EFB2F00BEAF66 /* Urbanist-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A620291EFB2F00BEAF66 /* Urbanist-Italic.ttf */; };
+		A483A633291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A621291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf */; };
+		A483A634291EFB2F00BEAF66 /* Urbanist-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */; };
+		A483A635291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */; };
+		A483A636291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A45EB63A291DA52B00C97F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45EB618291DA52800C97F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45EB61F291DA52800C97F65;
+			remoteInfo = passworld;
+		};
+		A45EB644291DA52B00C97F65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45EB618291DA52800C97F65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45EB61F291DA52800C97F65;
+			remoteInfo = passworld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A45EB620291DA52800C97F65 /* passworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45EB623291DA52800C97F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A45EB625291DA52800C97F65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A45EB627291DA52800C97F65 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		A45EB62A291DA52900C97F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A45EB62D291DA52900C97F65 /* passworld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = passworld.xcdatamodel; sourceTree = "<group>"; };
+		A45EB62F291DA52B00C97F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45EB632291DA52B00C97F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45EB634291DA52B00C97F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45EB639291DA52B00C97F65 /* passworldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passworldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45EB63D291DA52B00C97F65 /* passworldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passworldTests.swift; sourceTree = "<group>"; };
+		A45EB643291DA52B00C97F65 /* passworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45EB647291DA52B00C97F65 /* passworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passworldUITests.swift; sourceTree = "<group>"; };
+		A45EB649291DA52B00C97F65 /* passworldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passworldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4602B1729212F430091E85A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A4602B1929214A070091E85A /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		A4602B1D292152D60091E85A /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		A4602B1F2921622A0091E85A /* OnboardingViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewExtension.swift; sourceTree = "<group>"; };
+		A483A610291EFAE800BEAF66 /* Harabara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Harabara.ttf; path = ../../../../../../../Downloads/Harabara.ttf; sourceTree = "<group>"; };
+		A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Light.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		A483A615291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraLight.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A483A616291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraLightItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A483A617291EFB2F00BEAF66 /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Black.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Black.ttf"; sourceTree = "<group>"; };
+		A483A618291EFB2F00BEAF66 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Medium.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		A483A619291EFB2F00BEAF66 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Regular.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		A483A61A291EFB2F00BEAF66 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Bold.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		A483A61B291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraBold.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A483A61C291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-MediumItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A483A61D291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraBoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A483A61E291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-BoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A483A61F291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBold.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		A483A620291EFB2F00BEAF66 /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Italic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Italic.ttf"; sourceTree = "<group>"; };
+		A483A621291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-LightItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-LightItalic.ttf"; sourceTree = "<group>"; };
+		A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Thin.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Thin.ttf"; sourceTree = "<group>"; };
+		A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ThinItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-BlackItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45EB61D291DA52800C97F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45EB636291DA52B00C97F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45EB640291DA52B00C97F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45EB617291DA52800C97F65 = {
+			isa = PBXGroup;
+			children = (
+				A45EB622291DA52800C97F65 /* passworld */,
+				A45EB63C291DA52B00C97F65 /* passworldTests */,
+				A45EB646291DA52B00C97F65 /* passworldUITests */,
+				A45EB621291DA52800C97F65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A45EB621291DA52800C97F65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45EB620291DA52800C97F65 /* passworld.app */,
+				A45EB639291DA52B00C97F65 /* passworldTests.xctest */,
+				A45EB643291DA52B00C97F65 /* passworldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45EB622291DA52800C97F65 /* passworld */ = {
+			isa = PBXGroup;
+			children = (
+				A4602B1629212F090091E85A /* Extensions */,
+				A45EB65C291DA75C00C97F65 /* App */,
+				A45EB65B291DA68200C97F65 /* Supporting Files */,
+				A45EB658291DA60200C97F65 /* Views */,
+				A45EB657291DA5F900C97F65 /* Models */,
+				A45EB656291DA5C200C97F65 /* Controllers */,
+				A45EB62C291DA52900C97F65 /* passworld.xcdatamodeld */,
+			);
+			path = passworld;
+			sourceTree = "<group>";
+		};
+		A45EB63C291DA52B00C97F65 /* passworldTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45EB63D291DA52B00C97F65 /* passworldTests.swift */,
+			);
+			path = passworldTests;
+			sourceTree = "<group>";
+		};
+		A45EB646291DA52B00C97F65 /* passworldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A45EB647291DA52B00C97F65 /* passworldUITests.swift */,
+				A45EB649291DA52B00C97F65 /* passworldUITestsLaunchTests.swift */,
+			);
+			path = passworldUITests;
+			sourceTree = "<group>";
+		};
+		A45EB656291DA5C200C97F65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A483A60A291EE97100BEAF66 /* PasswordDetails */,
+				A483A609291EE95600BEAF66 /* GeneratePassword */,
+				A483A608291EE94200BEAF66 /* Settings */,
+				A483A607291EE93900BEAF66 /* Home */,
+				A45EB65D291DA79C00C97F65 /* Onboarding */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A45EB657291DA5F900C97F65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4602B1B29214A1E0091E85A /* Onboarding */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A45EB658291DA60200C97F65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4602B1C29214C2C0091E85A /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A45EB65B291DA68200C97F65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A483A60B291EF85900BEAF66 /* Fonts */,
+				A45EB629291DA52900C97F65 /* Main.storyboard */,
+				A45EB631291DA52B00C97F65 /* LaunchScreen.storyboard */,
+				A45EB62F291DA52B00C97F65 /* Assets.xcassets */,
+				A45EB634291DA52B00C97F65 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A45EB65C291DA75C00C97F65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A45EB623291DA52800C97F65 /* AppDelegate.swift */,
+				A45EB625291DA52800C97F65 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A45EB65D291DA79C00C97F65 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A4602B1629212F090091E85A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A4602B1729212F430091E85A /* UIViewExtension.swift */,
+				A4602B1F2921622A0091E85A /* OnboardingViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A4602B1B29214A1E0091E85A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4602B1929214A070091E85A /* OnboardingSlide.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A4602B1C29214C2C0091E85A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A45EB627291DA52800C97F65 /* OnboardingViewController.swift */,
+				A4602B1D292152D60091E85A /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A483A607291EE93900BEAF66 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A483A608291EE94200BEAF66 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A483A609291EE95600BEAF66 /* GeneratePassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneratePassword;
+			sourceTree = "<group>";
+		};
+		A483A60A291EE97100BEAF66 /* PasswordDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PasswordDetails;
+			sourceTree = "<group>";
+		};
+		A483A60B291EF85900BEAF66 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A483A612291EFB0C00BEAF66 /* Urbanist */,
+				A483A60E291EFA9800BEAF66 /* Harabara */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A483A60E291EFA9800BEAF66 /* Harabara */ = {
+			isa = PBXGroup;
+			children = (
+				A483A610291EFAE800BEAF66 /* Harabara.ttf */,
+			);
+			path = Harabara;
+			sourceTree = "<group>";
+		};
+		A483A612291EFB0C00BEAF66 /* Urbanist */ = {
+			isa = PBXGroup;
+			children = (
+				A483A617291EFB2F00BEAF66 /* Urbanist-Black.ttf */,
+				A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */,
+				A483A61A291EFB2F00BEAF66 /* Urbanist-Bold.ttf */,
+				A483A61E291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf */,
+				A483A61B291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf */,
+				A483A61D291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf */,
+				A483A615291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf */,
+				A483A616291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf */,
+				A483A620291EFB2F00BEAF66 /* Urbanist-Italic.ttf */,
+				A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */,
+				A483A621291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf */,
+				A483A618291EFB2F00BEAF66 /* Urbanist-Medium.ttf */,
+				A483A61C291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf */,
+				A483A619291EFB2F00BEAF66 /* Urbanist-Regular.ttf */,
+				A483A61F291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf */,
+				A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */,
+				A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */,
+				A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */,
+			);
+			path = Urbanist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A45EB61F291DA52800C97F65 /* passworld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45EB64D291DA52B00C97F65 /* Build configuration list for PBXNativeTarget "passworld" */;
+			buildPhases = (
+				A45EB61C291DA52800C97F65 /* Sources */,
+				A45EB61D291DA52800C97F65 /* Frameworks */,
+				A45EB61E291DA52800C97F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = passworld;
+			productName = passworld;
+			productReference = A45EB620291DA52800C97F65 /* passworld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A45EB638291DA52B00C97F65 /* passworldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45EB650291DA52B00C97F65 /* Build configuration list for PBXNativeTarget "passworldTests" */;
+			buildPhases = (
+				A45EB635291DA52B00C97F65 /* Sources */,
+				A45EB636291DA52B00C97F65 /* Frameworks */,
+				A45EB637291DA52B00C97F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45EB63B291DA52B00C97F65 /* PBXTargetDependency */,
+			);
+			name = passworldTests;
+			productName = passworldTests;
+			productReference = A45EB639291DA52B00C97F65 /* passworldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A45EB642291DA52B00C97F65 /* passworldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45EB653291DA52B00C97F65 /* Build configuration list for PBXNativeTarget "passworldUITests" */;
+			buildPhases = (
+				A45EB63F291DA52B00C97F65 /* Sources */,
+				A45EB640291DA52B00C97F65 /* Frameworks */,
+				A45EB641291DA52B00C97F65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45EB645291DA52B00C97F65 /* PBXTargetDependency */,
+			);
+			name = passworldUITests;
+			productName = passworldUITests;
+			productReference = A45EB643291DA52B00C97F65 /* passworldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45EB618291DA52800C97F65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A45EB61F291DA52800C97F65 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					A45EB638291DA52B00C97F65 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A45EB61F291DA52800C97F65;
+					};
+					A45EB642291DA52B00C97F65 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = A45EB61F291DA52800C97F65;
+					};
+				};
+			};
+			buildConfigurationList = A45EB61B291DA52800C97F65 /* Build configuration list for PBXProject "passworld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A45EB617291DA52800C97F65;
+			productRefGroup = A45EB621291DA52800C97F65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45EB61F291DA52800C97F65 /* passworld */,
+				A45EB638291DA52B00C97F65 /* passworldTests */,
+				A45EB642291DA52B00C97F65 /* passworldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45EB61E291DA52800C97F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A483A628291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf in Resources */,
+				A45EB633291DA52B00C97F65 /* LaunchScreen.storyboard in Resources */,
+				A483A632291EFB2F00BEAF66 /* Urbanist-Italic.ttf in Resources */,
+				A483A626291EFB2F00BEAF66 /* Urbanist-Light.ttf in Resources */,
+				A483A62F291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf in Resources */,
+				A483A62D291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf in Resources */,
+				A483A633291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf in Resources */,
+				A483A62C291EFB2F00BEAF66 /* Urbanist-Bold.ttf in Resources */,
+				A483A62A291EFB2F00BEAF66 /* Urbanist-Medium.ttf in Resources */,
+				A483A634291EFB2F00BEAF66 /* Urbanist-Thin.ttf in Resources */,
+				A483A635291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf in Resources */,
+				A483A627291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf in Resources */,
+				A45EB630291DA52B00C97F65 /* Assets.xcassets in Resources */,
+				A483A631291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf in Resources */,
+				A483A62B291EFB2F00BEAF66 /* Urbanist-Regular.ttf in Resources */,
+				A483A611291EFAE800BEAF66 /* Harabara.ttf in Resources */,
+				A483A636291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf in Resources */,
+				A483A629291EFB2F00BEAF66 /* Urbanist-Black.ttf in Resources */,
+				A483A62E291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf in Resources */,
+				A483A625291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf in Resources */,
+				A45EB62B291DA52900C97F65 /* Main.storyboard in Resources */,
+				A483A630291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45EB637291DA52B00C97F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45EB641291DA52B00C97F65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45EB61C291DA52800C97F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4602B1829212F430091E85A /* UIViewExtension.swift in Sources */,
+				A45EB628291DA52800C97F65 /* OnboardingViewController.swift in Sources */,
+				A45EB62E291DA52900C97F65 /* passworld.xcdatamodeld in Sources */,
+				A4602B202921622A0091E85A /* OnboardingViewExtension.swift in Sources */,
+				A45EB624291DA52800C97F65 /* AppDelegate.swift in Sources */,
+				A4602B1A29214A070091E85A /* OnboardingSlide.swift in Sources */,
+				A4602B1E292152D60091E85A /* OnboardingCollectionViewCell.swift in Sources */,
+				A45EB626291DA52800C97F65 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45EB635291DA52B00C97F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45EB63E291DA52B00C97F65 /* passworldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45EB63F291DA52B00C97F65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45EB64A291DA52B00C97F65 /* passworldUITestsLaunchTests.swift in Sources */,
+				A45EB648291DA52B00C97F65 /* passworldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A45EB63B291DA52B00C97F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45EB61F291DA52800C97F65 /* passworld */;
+			targetProxy = A45EB63A291DA52B00C97F65 /* PBXContainerItemProxy */;
+		};
+		A45EB645291DA52B00C97F65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45EB61F291DA52800C97F65 /* passworld */;
+			targetProxy = A45EB644291DA52B00C97F65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A45EB629291DA52900C97F65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45EB62A291DA52900C97F65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A45EB631291DA52B00C97F65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45EB632291DA52B00C97F65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A45EB64B291DA52B00C97F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A45EB64C291DA52B00C97F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45EB64E291DA52B00C97F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L6Q7426QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "passworld/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchtter.passworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A45EB64F291DA52B00C97F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L6Q7426QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "passworld/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchtter.passworld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A45EB651291DA52B00C97F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L6Q7426QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchtter.passworldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passworld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/passworld";
+			};
+			name = Debug;
+		};
+		A45EB652291DA52B00C97F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L6Q7426QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchtter.passworldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/passworld.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/passworld";
+			};
+			name = Release;
+		};
+		A45EB654291DA52B00C97F65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L6Q7426QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchtter.passworldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = passworld;
+			};
+			name = Debug;
+		};
+		A45EB655291DA52B00C97F65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L6Q7426QV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchtter.passworldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = passworld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45EB61B291DA52800C97F65 /* Build configuration list for PBXProject "passworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45EB64B291DA52B00C97F65 /* Debug */,
+				A45EB64C291DA52B00C97F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45EB64D291DA52B00C97F65 /* Build configuration list for PBXNativeTarget "passworld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45EB64E291DA52B00C97F65 /* Debug */,
+				A45EB64F291DA52B00C97F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45EB650291DA52B00C97F65 /* Build configuration list for PBXNativeTarget "passworldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45EB651291DA52B00C97F65 /* Debug */,
+				A45EB652291DA52B00C97F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45EB653291DA52B00C97F65 /* Build configuration list for PBXNativeTarget "passworldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45EB654291DA52B00C97F65 /* Debug */,
+				A45EB655291DA52B00C97F65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A45EB62C291DA52900C97F65 /* passworld.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A45EB62D291DA52900C97F65 /* passworld.xcdatamodel */,
+			);
+			currentVersion = A45EB62D291DA52900C97F65 /* passworld.xcdatamodel */;
+			path = passworld.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A45EB618291DA52800C97F65 /* Project object */;
+}

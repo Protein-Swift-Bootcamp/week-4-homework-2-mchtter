@@ -76,25 +76,25 @@
 		A4602B1729212F430091E85A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		A4602B1929214A070091E85A /* OnboardingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModal.swift; sourceTree = "<group>"; };
 		A4602B1D292152D60091E85A /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
-		A483A610291EFAE800BEAF66 /* Harabara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Harabara.ttf; path = ../../../../../../../Downloads/Harabara.ttf; sourceTree = "<group>"; };
-		A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Light.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Light.ttf"; sourceTree = "<group>"; };
-		A483A615291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraLight.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; };
-		A483A616291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraLightItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		A483A617291EFB2F00BEAF66 /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Black.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Black.ttf"; sourceTree = "<group>"; };
-		A483A618291EFB2F00BEAF66 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Medium.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Medium.ttf"; sourceTree = "<group>"; };
-		A483A619291EFB2F00BEAF66 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Regular.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Regular.ttf"; sourceTree = "<group>"; };
-		A483A61A291EFB2F00BEAF66 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Bold.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Bold.ttf"; sourceTree = "<group>"; };
-		A483A61B291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraBold.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A483A61C291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-MediumItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; };
-		A483A61D291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ExtraBoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		A483A61E291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-BoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; };
-		A483A61F291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBold.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
-		A483A620291EFB2F00BEAF66 /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Italic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Italic.ttf"; sourceTree = "<group>"; };
-		A483A621291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-LightItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-LightItalic.ttf"; sourceTree = "<group>"; };
-		A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Thin.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Thin.ttf"; sourceTree = "<group>"; };
-		A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-ThinItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
-		A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-BlackItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A483A610291EFAE800BEAF66 /* Harabara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Harabara.ttf; sourceTree = "<group>"; };
+		A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		A483A615291EFB2F00BEAF66 /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A483A616291EFB2F00BEAF66 /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A483A617291EFB2F00BEAF66 /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Black.ttf"; sourceTree = "<group>"; };
+		A483A618291EFB2F00BEAF66 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		A483A619291EFB2F00BEAF66 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		A483A61A291EFB2F00BEAF66 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		A483A61B291EFB2F00BEAF66 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A483A61C291EFB2F00BEAF66 /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A483A61D291EFB2F00BEAF66 /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A483A61E291EFB2F00BEAF66 /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A483A61F291EFB2F00BEAF66 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		A483A620291EFB2F00BEAF66 /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic.ttf"; sourceTree = "<group>"; };
+		A483A621291EFB2F00BEAF66 /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-LightItalic.ttf"; sourceTree = "<group>"; };
+		A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Thin.ttf"; sourceTree = "<group>"; };
+		A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

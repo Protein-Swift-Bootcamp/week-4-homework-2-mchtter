@@ -400,8 +400,8 @@
                                                         <color key="baseForegroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </buttonConfiguration>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Apple ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZV-nb-4qx">
-                                                    <rect key="frame" x="72" y="11" width="65" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5b-cE-tsk">
+                                                    <rect key="frame" x="78" y="11" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -410,14 +410,20 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <accessibility key="accessibilityConfiguration" identifier="passwordsTableViewCell"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="copyButton" destination="J60-gT-W2p" id="CN2-AR-dhA"/>
                                             <outlet property="deleteButton" destination="rS7-zJ-b7D" id="tMN-Hd-Xog"/>
                                             <outlet property="objectLogo" destination="Ad3-TW-AR2" id="3m2-Ha-rVK"/>
-                                            <outlet property="tableView" destination="sZV-nb-4qx" id="fbK-nI-buo"/>
+                                            <outlet property="title" destination="Q5b-cE-tsk" id="5Ru-oZ-bnR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="0.0"/>

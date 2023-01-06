@@ -15,39 +15,9 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
-            endingLineNumber = "83">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "17E0886F-DC9F-4BB0-B390-BAD96D72C36F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "passworld/Views/Homepage/PasswordsTableViewCell.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "PasswordsTableViewCell"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A4ECB08D-25D7-4C78-B23F-0106866DDDDA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "passworld/Views/Homepage/PasswordsViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            endingLineNumber = "83"
+            landmarkName = "PasswordsViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

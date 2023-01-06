@@ -70,11 +70,11 @@ extension PasswordsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "passwordsTableViewCell", for: indexPath) as! PasswordsTableViewCell
         
-        guard let cellData = passwordsJSONObject?.data[indexPath.row] else {
-            return cell
-        }
+       guard let cellData = passwordsJSONObject?.data[indexPath.row] else {
+           return cell
+       }
         
-        cell.setup(cellData)
+       cell.setup(cellData)
         
         return cell
     }

@@ -7,25 +7,75 @@
 
 import UIKit
 
-class HomepageViewController: UIViewController {
+class PasswordsViewController: UIViewController {
+    
+    var passwordsJSONObject : PasswordsJSONObject?
+    
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "http://localhost:1337/api/passwords")!
+        
+        
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(PasswordsTableViewCell.self, forCellReuseIdentifier: "passwordsTableViewCell")
+        
+        getDataFromAPI()
+
+        
+    }
+    
+    func getDataFromAPI() {
+        let url = URL(string: "\(ProcessInfo.processInfo.environment["API_URL"]!)/passwords")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        request.setValue("Bearer 8e388756b592c5d3d41a1a8bac332dfc0f4a4b292f857d373f6ad3c9bfd107b952a9ca10a90c767a576a50a887f0fd3fe49eb43840419ad085c25c0a8905f15570959bf8ff2be78a388a92462b7302f8bbb8383db6b5c58565ee9aa7496d4aa63801d1f0b7d828dd7027e92cc75e24c4541dfc68a071c7594618fa5646f8415b", forHTTPHeaderField: "Authorization")
-        
-        
+        request.setValue("Bearer \(ProcessInfo.processInfo.environment["API_TOKEN"]!)", forHTTPHeaderField: "Authorization")
         
 
         let task = URLSession.shared.dataTask(with: request) {(data, response, error) in
             guard let data = data else { return }
-            print(String(data: data, encoding: .utf8)!)
-        }
+            
+            do {
+                let _passwordObject = try! JSONDecoder().decode(PasswordsJSONObject.self, from: data)
+                
+                self.passwordsJSONObject = _passwordObject
+                
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
 
+            } catch let error as NSError {
+                print(error)
+            }
+        }
         task.resume()
-        
+    }
+}
+
+// MARK: - UITableViewDelegate
+extension PasswordsViewController: UITableViewDelegate {
+    
+}
+
+// MARK: - UITableViewDataSource
+extension PasswordsViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return passwordsJSONObject?.data.count ?? 0
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "passwordsTableViewCell", for: indexPath) as! PasswordsTableViewCell
+        
+        guard let cellData = passwordsJSONObject?.data[indexPath.row] else {
+            return cell
+        }
+        
+        cell.setup(cellData)
+        
+        return cell
+    }
 }

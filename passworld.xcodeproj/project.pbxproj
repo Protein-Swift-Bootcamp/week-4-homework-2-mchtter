@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42725B62961A91B0041E2CD /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42725B52961A91B0041E2CD /* PasswordsViewController.swift */; };
+		A42725B82961BD380041E2CD /* PasswordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42725B72961BD380041E2CD /* PasswordsTableViewCell.swift */; };
+		A42725BB2961FB660041E2CD /* PasswordsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42725BA2961FB660041E2CD /* PasswordsModal.swift */; };
 		A45EB624291DA52800C97F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB623291DA52800C97F65 /* AppDelegate.swift */; };
 		A45EB626291DA52800C97F65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB625291DA52800C97F65 /* SceneDelegate.swift */; };
 		A45EB628291DA52800C97F65 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB627291DA52800C97F65 /* OnboardingViewController.swift */; };
@@ -14,13 +17,9 @@
 		A45EB62E291DA52900C97F65 /* passworld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A45EB62C291DA52900C97F65 /* passworld.xcdatamodeld */; };
 		A45EB630291DA52B00C97F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45EB62F291DA52B00C97F65 /* Assets.xcassets */; };
 		A45EB633291DA52B00C97F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45EB631291DA52B00C97F65 /* LaunchScreen.storyboard */; };
-		A45EB63E291DA52B00C97F65 /* passworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB63D291DA52B00C97F65 /* passworldTests.swift */; };
-		A45EB648291DA52B00C97F65 /* passworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB647291DA52B00C97F65 /* passworldUITests.swift */; };
-		A45EB64A291DA52B00C97F65 /* passworldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45EB649291DA52B00C97F65 /* passworldUITestsLaunchTests.swift */; };
 		A4602B1829212F430091E85A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1729212F430091E85A /* UIViewExtension.swift */; };
-		A4602B1A29214A070091E85A /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1929214A070091E85A /* OnboardingSlide.swift */; };
+		A4602B1A29214A070091E85A /* OnboardingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1929214A070091E85A /* OnboardingModal.swift */; };
 		A4602B1E292152D60091E85A /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1D292152D60091E85A /* OnboardingCollectionViewCell.swift */; };
-		A4602B202921622A0091E85A /* OnboardingViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4602B1F2921622A0091E85A /* OnboardingViewExtension.swift */; };
 		A483A611291EFAE800BEAF66 /* Harabara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A610291EFAE800BEAF66 /* Harabara.ttf */; };
 		A483A625291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */; };
 		A483A626291EFB2F00BEAF66 /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */; };
@@ -60,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42725B52961A91B0041E2CD /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		A42725B72961BD380041E2CD /* PasswordsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsTableViewCell.swift; sourceTree = "<group>"; };
+		A42725BA2961FB660041E2CD /* PasswordsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsModal.swift; sourceTree = "<group>"; };
 		A45EB620291DA52800C97F65 /* passworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45EB623291DA52800C97F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45EB625291DA52800C97F65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,14 +72,10 @@
 		A45EB632291DA52B00C97F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45EB634291DA52B00C97F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45EB639291DA52B00C97F65 /* passworldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passworldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45EB63D291DA52B00C97F65 /* passworldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passworldTests.swift; sourceTree = "<group>"; };
 		A45EB643291DA52B00C97F65 /* passworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45EB647291DA52B00C97F65 /* passworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passworldUITests.swift; sourceTree = "<group>"; };
-		A45EB649291DA52B00C97F65 /* passworldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = passworldUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A4602B1729212F430091E85A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		A4602B1929214A070091E85A /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		A4602B1929214A070091E85A /* OnboardingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModal.swift; sourceTree = "<group>"; };
 		A4602B1D292152D60091E85A /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
-		A4602B1F2921622A0091E85A /* OnboardingViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewExtension.swift; sourceTree = "<group>"; };
 		A483A610291EFAE800BEAF66 /* Harabara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Harabara.ttf; path = ../../../../../../../Downloads/Harabara.ttf; sourceTree = "<group>"; };
 		A483A613291EFB2F00BEAF66 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBoldItalic.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		A483A614291EFB2F00BEAF66 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Light.ttf"; path = "../../../../../../../Downloads/Urbanist/static/Urbanist-Light.ttf"; sourceTree = "<group>"; };
@@ -124,12 +122,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42725B42961A8ED0041E2CD /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				A42725B52961A91B0041E2CD /* PasswordsViewController.swift */,
+				A42725B72961BD380041E2CD /* PasswordsTableViewCell.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		A42725B92961FB470041E2CD /* Passwords */ = {
+			isa = PBXGroup;
+			children = (
+				A42725BA2961FB660041E2CD /* PasswordsModal.swift */,
+			);
+			path = Passwords;
+			sourceTree = "<group>";
+		};
 		A45EB617291DA52800C97F65 = {
 			isa = PBXGroup;
 			children = (
 				A45EB622291DA52800C97F65 /* passworld */,
-				A45EB63C291DA52B00C97F65 /* passworldTests */,
-				A45EB646291DA52B00C97F65 /* passworldUITests */,
 				A45EB621291DA52800C97F65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,28 +164,11 @@
 				A45EB65C291DA75C00C97F65 /* App */,
 				A45EB65B291DA68200C97F65 /* Supporting Files */,
 				A45EB658291DA60200C97F65 /* Views */,
-				A45EB657291DA5F900C97F65 /* Models */,
+				A45EB657291DA5F900C97F65 /* Modals */,
 				A45EB656291DA5C200C97F65 /* Controllers */,
 				A45EB62C291DA52900C97F65 /* passworld.xcdatamodeld */,
 			);
 			path = passworld;
-			sourceTree = "<group>";
-		};
-		A45EB63C291DA52B00C97F65 /* passworldTests */ = {
-			isa = PBXGroup;
-			children = (
-				A45EB63D291DA52B00C97F65 /* passworldTests.swift */,
-			);
-			path = passworldTests;
-			sourceTree = "<group>";
-		};
-		A45EB646291DA52B00C97F65 /* passworldUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A45EB647291DA52B00C97F65 /* passworldUITests.swift */,
-				A45EB649291DA52B00C97F65 /* passworldUITestsLaunchTests.swift */,
-			);
-			path = passworldUITests;
 			sourceTree = "<group>";
 		};
 		A45EB656291DA5C200C97F65 /* Controllers */ = {
@@ -187,17 +183,19 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		A45EB657291DA5F900C97F65 /* Models */ = {
+		A45EB657291DA5F900C97F65 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
+				A42725B92961FB470041E2CD /* Passwords */,
 				A4602B1B29214A1E0091E85A /* Onboarding */,
 			);
-			path = Models;
+			path = Modals;
 			sourceTree = "<group>";
 		};
 		A45EB658291DA60200C97F65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A42725B42961A8ED0041E2CD /* Homepage */,
 				A4602B1C29214C2C0091E85A /* Onboarding */,
 			);
 			path = Views;
@@ -235,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				A4602B1729212F430091E85A /* UIViewExtension.swift */,
-				A4602B1F2921622A0091E85A /* OnboardingViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -243,7 +240,7 @@
 		A4602B1B29214A1E0091E85A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				A4602B1929214A070091E85A /* OnboardingSlide.swift */,
+				A4602B1929214A070091E85A /* OnboardingModal.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -477,14 +474,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42725BB2961FB660041E2CD /* PasswordsModal.swift in Sources */,
 				A4602B1829212F430091E85A /* UIViewExtension.swift in Sources */,
 				A45EB628291DA52800C97F65 /* OnboardingViewController.swift in Sources */,
 				A45EB62E291DA52900C97F65 /* passworld.xcdatamodeld in Sources */,
-				A4602B202921622A0091E85A /* OnboardingViewExtension.swift in Sources */,
 				A45EB624291DA52800C97F65 /* AppDelegate.swift in Sources */,
-				A4602B1A29214A070091E85A /* OnboardingSlide.swift in Sources */,
+				A4602B1A29214A070091E85A /* OnboardingModal.swift in Sources */,
 				A4602B1E292152D60091E85A /* OnboardingCollectionViewCell.swift in Sources */,
 				A45EB626291DA52800C97F65 /* SceneDelegate.swift in Sources */,
+				A42725B82961BD380041E2CD /* PasswordsTableViewCell.swift in Sources */,
+				A42725B62961A91B0041E2CD /* PasswordsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45EB63E291DA52B00C97F65 /* passworldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,8 +498,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45EB64A291DA52B00C97F65 /* passworldUITestsLaunchTests.swift in Sources */,
-				A45EB648291DA52B00C97F65 /* passworldUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,8 +34,6 @@ class OnboardingViewController: UIViewController {
         OnboardingSlide(titleOne: "ALL YOUR", titleTwo: "PASSWORDS", titleThree: "ARE HERE", description: "Store and manage all of your passwords from one place. Don’t remember hundreds of passwords, just remember one."),
         OnboardingSlide(titleOne: "DON'T TYPE,", titleTwo: "AUTOFILL YOUR", titleThree: "CREDENTIALS", description: "Don’t compromise your passwords by typing them in public, let Passworld autofill those and keep your credentials secure.")
         ]
-        
-        
     }
 
     @IBAction func nextButtonClicked(_ sender: Any) {
@@ -49,5 +47,26 @@ class OnboardingViewController: UIViewController {
             let indexPath = IndexPath(item: currentPage, section: 0)
             collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
         }
+    }
+}
+
+extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return slides.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: OnboardingCollectionViewCell.identifier, for: indexPath) as! OnboardingCollectionViewCell
+        cell.setup(slides[currentPage])
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
+    }
+
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let width = scrollView.frame.width
+        currentPage = Int(scrollView.contentOffset.x / width)
     }
 }

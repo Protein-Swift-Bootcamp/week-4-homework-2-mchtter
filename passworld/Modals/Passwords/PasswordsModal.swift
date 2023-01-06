@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct JSONObject: Codable {
+struct PasswordsJSONObject: Codable {
     let data: [PasswordsData]
 }
 

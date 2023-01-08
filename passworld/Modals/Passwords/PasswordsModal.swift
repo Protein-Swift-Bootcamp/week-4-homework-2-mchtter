@@ -19,6 +19,6 @@ struct PasswordsData: Codable {
 
 // MARK: - Attributes
 struct Attributes: Codable {
-    let platform, password, createdAt, updatedAt: String
+    let platform, password, username, createdAt, updatedAt: String
     let publishedAt: String
 }

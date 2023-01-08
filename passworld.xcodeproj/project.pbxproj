@@ -39,6 +39,7 @@
 		A483A634291EFB2F00BEAF66 /* Urbanist-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */; };
 		A483A635291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */; };
 		A483A636291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */; };
+		A4C5CC78296B647100055089 /* AddPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C5CC77296B647100055089 /* AddPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		A483A622291EFB2F00BEAF66 /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Thin.ttf"; sourceTree = "<group>"; };
 		A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
 		A483A624291EFB2F00BEAF66 /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A4C5CC77296B647100055089 /* AddPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 		A45EB658291DA60200C97F65 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A4C5CC73296B626700055089 /* AddPassword */,
 				A42725B42961A8ED0041E2CD /* Homepage */,
 				A4602B1C29214C2C0091E85A /* Onboarding */,
 			);
@@ -322,6 +325,14 @@
 				A483A623291EFB2F00BEAF66 /* Urbanist-ThinItalic.ttf */,
 			);
 			path = Urbanist;
+			sourceTree = "<group>";
+		};
+		A4C5CC73296B626700055089 /* AddPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A4C5CC77296B647100055089 /* AddPasswordViewController.swift */,
+			);
+			path = AddPassword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42725BB2961FB660041E2CD /* PasswordsModal.swift in Sources */,
+				A4C5CC78296B647100055089 /* AddPasswordViewController.swift in Sources */,
 				A4602B1829212F430091E85A /* UIViewExtension.swift in Sources */,
 				A45EB628291DA52800C97F65 /* OnboardingViewController.swift in Sources */,
 				A45EB62E291DA52900C97F65 /* passworld.xcdatamodeld in Sources */,

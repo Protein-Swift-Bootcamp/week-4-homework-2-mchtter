@@ -16,6 +16,6 @@ class PasswordsTableViewCell: UITableViewCell {
     @IBOutlet weak var objectLogo: UIButton!
     
     func setup(_ passwordCell: PasswordsData) {
-        title.text = "passwordCell.attributes.platform"
+//        title.text = "passwordCell.attributes.platform"
     }
 }

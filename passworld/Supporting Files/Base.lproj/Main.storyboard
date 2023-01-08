@@ -48,7 +48,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="53M-vl-WT2">
-                                                    <rect key="frame" x="8" y="335.33333333333331" width="337" height="72.666666666666686"/>
+                                                    <rect key="frame" x="8" y="392" width="337" height="16"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <string key="text">Stop using unsecure passwords for your online accounts, level up with Passworld. Get the most secure and difficult-to-crack passwords.</string>
                                                     <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -56,34 +56,34 @@
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="****" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFg-e5-hsP">
-                                                    <rect key="frame" x="7.3333333333333357" y="8" width="101.66666666666666" height="37.333333333333336"/>
+                                                    <rect key="frame" x="7.3333333333333357" y="8" width="101.66666666666666" height="36.333333333333336"/>
                                                     <fontDescription key="fontDescription" name="Urbanist-ExtraBold" family="Urbanist" pointSize="31"/>
                                                     <color key="textColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZN-6Z-O2S">
-                                                    <rect key="frame" x="9" y="16" width="42.333333333333336" height="21"/>
+                                                    <rect key="frame" x="9" y="16" width="34" height="20"/>
                                                     <fontDescription key="fontDescription" name="Urbanist-ExtraBold" family="Urbanist" pointSize="17"/>
                                                     <color key="textColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="LXr-e2-hno">
-                                                    <rect key="frame" x="16" y="155.33333333333334" width="321" height="129.00000000000003"/>
+                                                    <rect key="frame" x="16" y="154.33333333333337" width="321" height="186.66666666666663"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="G E N E R A T E" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb0-0V-SXX">
-                                                            <rect key="frame" x="0.0" y="0.0" width="321" height="43"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="321" height="46.666666666666664"/>
                                                             <fontDescription key="fontDescription" name="Harabara" family="Harabara" pointSize="40"/>
                                                             <color key="textColor" red="0.32941176470588235" green="0.34901960784313724" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S E C U R E" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1c-GN-ZdU">
-                                                            <rect key="frame" x="0.0" y="43" width="321" height="43"/>
+                                                            <rect key="frame" x="0.0" y="46.666666666666657" width="321" height="46.666666666666657"/>
                                                             <fontDescription key="fontDescription" name="Harabara" family="Harabara" pointSize="40"/>
                                                             <color key="textColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="P A S S W O R D S" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvI-ui-lgA">
-                                                            <rect key="frame" x="0.0" y="86" width="321" height="43"/>
+                                                            <rect key="frame" x="0.0" y="93.333333333333314" width="321" height="93.333333333333314"/>
                                                             <fontDescription key="fontDescription" name="Harabara" family="Harabara" pointSize="40"/>
                                                             <color key="textColor" red="0.32941176470588235" green="0.34901960784313724" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -202,28 +202,175 @@
             </objects>
             <point key="canvasLocation" x="7.6923076923076916" y="3.5545023696682461"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Password View Controller-->
         <scene sceneID="dfO-wB-K9u">
             <objects>
-                <viewController id="8NE-vp-qN6" sceneMemberID="viewController">
+                <viewController id="8NE-vp-qN6" customClass="AddPasswordViewController" customModule="passworld" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gs9-i4-vfH">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2o-JM-IMT">
-                                <rect key="frame" x="66" y="404" width="259" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GqG-TF-uUP">
+                                <rect key="frame" x="16" y="97" width="143" height="37"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="ADD NEW">
+                                        <attributes>
+                                            <color key="NSColor" red="0.32941176470588235" green="0.34901960784313724" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="31" name="Harabara"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLd-2C-aoc">
+                                <rect key="frame" x="16" y="192" width="44" height="15.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" red="0.32941176470588235" green="0.34901960784313724" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Website / App Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QeI-y8-Scf">
+                                <rect key="frame" x="16" y="215.66666666666666" width="358" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL / USERNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak0-6s-9F2">
+                                <rect key="frame" x="16" y="275.66666666666669" width="141" height="15.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" red="0.3294117647" green="0.34901960780000002" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email / Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JdN-Rm-E61">
+                                <rect key="frame" x="16" y="299.33333333333331" width="358" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzw-so-usi">
+                                <rect key="frame" x="16" y="359.33333333333331" width="141" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" red="0.3294117647" green="0.34901960780000002" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ufv-bY-CC4">
+                                <rect key="frame" x="16" y="383.33333333333331" width="358" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Io-54-Uvz">
+                                <rect key="frame" x="195" y="451" width="177" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="GENERATE NEW">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="Harabara"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAs-J4-HLo">
+                                <rect key="frame" x="16" y="661" width="356" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="ADD PASSWORD">
+                                            <attributes>
+                                                <font key="NSFont" size="13" name="Harabara"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="1" green="0.39215686274509803" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addPasswordButton:" destination="8NE-vp-qN6" eventType="touchUpInside" id="o82-z8-hH5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cz2-1p-ZBB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="f2o-JM-IMT" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="66" id="0v8-LP-DXc"/>
-                            <constraint firstItem="f2o-JM-IMT" firstAttribute="top" secondItem="cz2-1p-ZBB" secondAttribute="top" constant="357" id="eex-hM-qAR"/>
-                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="f2o-JM-IMT" secondAttribute="trailing" constant="65" id="qDC-oi-a82"/>
-                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="bottom" secondItem="f2o-JM-IMT" secondAttribute="bottom" constant="320" id="u71-ev-m5F"/>
+                            <constraint firstItem="ufv-bY-CC4" firstAttribute="top" secondItem="Dzw-so-usi" secondAttribute="bottom" constant="8" id="1PC-JY-eXI"/>
+                            <constraint firstItem="QeI-y8-Scf" firstAttribute="top" secondItem="XLd-2C-aoc" secondAttribute="bottom" constant="8" symbolic="YES" id="1ZU-v1-jb9"/>
+                            <constraint firstItem="GqG-TF-uUP" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="1nt-eV-Zq9"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="ufv-bY-CC4" secondAttribute="trailing" constant="16" id="6yq-gp-yZ2"/>
+                            <constraint firstItem="ak0-6s-9F2" firstAttribute="top" secondItem="QeI-y8-Scf" secondAttribute="bottom" constant="26" id="BxX-R0-X6X"/>
+                            <constraint firstItem="XLd-2C-aoc" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="Co0-UY-0Of"/>
+                            <constraint firstItem="JdN-Rm-E61" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="DAB-eE-YnH"/>
+                            <constraint firstItem="ufv-bY-CC4" firstAttribute="top" secondItem="Dzw-so-usi" secondAttribute="bottom" constant="8" symbolic="YES" id="H2W-wb-FGf"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="QeI-y8-Scf" secondAttribute="trailing" constant="16" id="IbQ-tI-mwa"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="Dzw-so-usi" secondAttribute="trailing" constant="233" id="K2n-SQ-gmC"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="ak0-6s-9F2" secondAttribute="trailing" constant="233" id="LOQ-Za-mah"/>
+                            <constraint firstItem="GqG-TF-uUP" firstAttribute="top" secondItem="cz2-1p-ZBB" secondAttribute="top" constant="50" id="MzP-A8-fHs"/>
+                            <constraint firstItem="ak0-6s-9F2" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="OPY-GO-7qg"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="GqG-TF-uUP" secondAttribute="trailing" constant="231" id="S4j-A8-Ejp"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="XLd-2C-aoc" secondAttribute="trailing" constant="330" id="TJV-Hw-bgs"/>
+                            <constraint firstItem="Dzw-so-usi" firstAttribute="top" secondItem="JdN-Rm-E61" secondAttribute="bottom" constant="26" id="Ueb-cq-hRt"/>
+                            <constraint firstItem="ufv-bY-CC4" firstAttribute="top" secondItem="Dzw-so-usi" secondAttribute="bottom" constant="6" id="VSo-Eb-qz1"/>
+                            <constraint firstItem="XLd-2C-aoc" firstAttribute="top" secondItem="GqG-TF-uUP" secondAttribute="bottom" constant="58" id="Wtg-TI-ltf"/>
+                            <constraint firstItem="QeI-y8-Scf" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="a9a-8X-1XA"/>
+                            <constraint firstItem="ufv-bY-CC4" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="juP-0X-5DP"/>
+                            <constraint firstItem="ufv-bY-CC4" firstAttribute="top" secondItem="Dzw-so-usi" secondAttribute="bottom" constant="8" id="nlb-ae-64n"/>
+                            <constraint firstItem="JdN-Rm-E61" firstAttribute="top" secondItem="ak0-6s-9F2" secondAttribute="bottom" constant="8" symbolic="YES" id="oMi-ln-rc7"/>
+                            <constraint firstItem="JdN-Rm-E61" firstAttribute="top" secondItem="ak0-6s-9F2" secondAttribute="bottom" constant="8" id="t4u-t4-bWA"/>
+                            <constraint firstItem="cz2-1p-ZBB" firstAttribute="trailing" secondItem="JdN-Rm-E61" secondAttribute="trailing" constant="16" id="v5h-fk-R5h"/>
+                            <constraint firstItem="Dzw-so-usi" firstAttribute="leading" secondItem="cz2-1p-ZBB" secondAttribute="leading" constant="16" id="w2V-37-1Lq"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" id="H1W-ny-KbZ">
@@ -237,10 +384,15 @@
                         <inset key="imageInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
                         <inset key="largeContentSizeImageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="40"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="passwordTextField" destination="ufv-bY-CC4" id="yCu-Pp-4Hu"/>
+                        <outlet property="platformNameTextField" destination="QeI-y8-Scf" id="rMl-ze-T2I"/>
+                        <outlet property="usernameTextField" destination="JdN-Rm-E61" id="gfJ-EC-ETv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xtF-7q-laT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2507.6923076923076" y="306.39810426540282"/>
+            <point key="canvasLocation" x="2508" y="377"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ZSA-V2-DT3">
@@ -458,7 +610,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5PO-QW-j8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2507.6923076923076" y="-299.28909952606631"/>
+            <point key="canvasLocation" x="2508" y="-366"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Yqw-Cj-hV7">
